@@ -1,0 +1,14 @@
+splearn is a limited machine learning package, which offers sparse linear classifiers and regressors in supervised learning and provides sparse matrix decomposition algorithms in unsupervised learning. 
+
+splearn considers more loss functions and regularization items than other python machine learning packages, and the algorithms in splearn are neither as efficient as state-of-the-art or comparable to the state-of-the-art. 
+
+In a word, splearn is an efficient python machine learning package specialized in sparse linear supervised models (classification and regression) and in sparse matrix decomposition.
+
+1) Install
+>> python setup.py install
+
+2) Getting help
+>> import splearn as sp
+>> help(sp.ssvd)
+
+3) For more information, please refer "splearn_document".
